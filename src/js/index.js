@@ -7,7 +7,7 @@ import "../styles/index.css";
 
 //import your own components
 import Home from "./component/home.jsx";
-import Cronometro from "./component/cronometro";
+import Crono from "./component/crono";
 
  let counter = 0;
  setInterval(function(timeMachine){
@@ -19,7 +19,7 @@ import Cronometro from "./component/cronometro";
     const two = Math.floor(counter / 10 % 10);
     const one = Math.floor(counter / 1 % 10);
     ReactDOM.render(
-        <Cronometro secOne={one} secTwo={two} secThree={three} secFour={four} secFive={five} secSix={six} />,
+        <Crono secOne={one} secTwo={two} secThree={three} secFour={four} secFive={five} secSix={six} />,
         document.querySelector("#app")
          );
      },1000);
