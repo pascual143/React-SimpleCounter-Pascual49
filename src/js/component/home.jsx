@@ -1,7 +1,7 @@
 import React from "react";
 
 //include images into your bundle
-import Crono from "./crono"
+import Crono from "./crono.jsx"
 
 //create your first component
 const Home = () => {
