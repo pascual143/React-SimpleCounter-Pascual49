@@ -1,7 +1,7 @@
 import React from "react";
 import propTypes from "prop-types";
 
-const cronometro = (props) => {
+const crono = (props) => {
   return(
     <>
       <div className="wholeCounter d-flex justify-content-around">
@@ -23,7 +23,7 @@ const cronometro = (props) => {
     </>
     );
   }
-  cronometro.propTypes = {
+  crono.propTypes = {
     secOne: propTypes.number,
     secTwo: propTypes.number,
     secThree: propTypes.number,
@@ -32,4 +32,4 @@ const cronometro = (props) => {
     secSix: propTypes.number
   };
 
-export default cronometro
+export default crono
